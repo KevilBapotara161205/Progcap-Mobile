@@ -5,7 +5,7 @@ class ApiClient {
 
   ApiClient() {
     dio = Dio(BaseOptions(
-      baseUrl: 'http://localhost:5000/api/v1',
+      baseUrl: 'https://backend-lovat-three-21.vercel.app/api/v1',
       connectTimeout: const Duration(seconds: 10),
       receiveTimeout: const Duration(seconds: 10),
     ));
